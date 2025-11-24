@@ -12,7 +12,7 @@ let col = 0;
 moves.push(board[row][col]); // A // r0 c0 [0][0]
 
 // Move Right to B
-col++;
+col++
 moves.push(board[row][col]);
 
 // Move Right to C
