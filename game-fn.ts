@@ -20,8 +20,8 @@ function moveRight() {
 }
 
 function moveLeft() {
-	if (row > 0) {
-		row--;
+	if (col > 0) {
+		col--;
 		moves.push(board[row][col]);
 	}
 }
